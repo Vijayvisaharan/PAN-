@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pan Card</title>
+  <style>
+    .heading {
+      background-color: brown;
+      text-align: center;
+      color: white;
+    }
+
+    u {
+      color: orange;
+    }
+
+    .main {
+      color: red;
+    }
+
+    body {
+      background-color: rgb(234, 234, 179);
+    }
+
+    * {
+      margin: 0px
+    }
+
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="heading">
+    <b>Request for the PAN card / Changes or Corrections</b>
+    <i>
+      <div>Fields marked with <span class="main">*</span> are Mandatory.To avoid mistakes please refer
+        <u>guideliness</u> and <u>instructions</u></div>
+    </i>
+  </div>
+  <table width="100%">
+    <tr>
+      <td></td>
+      <td>
+        <span class="main">*</span> <b>Whether he is a Citizen of India</b>
+        <label for="yes" style="padding-left: 40px;">Yes</label>
+        <input type="radio" name="" id="yes">
+        <label for="no" style="padding-left: 20px;">No</label>
+        <input type="radio" name="" id="no">
+      </td>
+      
+    </tr>
+
+    <tr>
+      <td></td>
+      <td>
+        <span class="main">*</span> <b>Permanent Account Number</b>
+        <input type="text" name="" id="">
+      </td>
+      
+    </tr>
+
+    <tr>
+      <td style="width:2%; text-align: center;"> <input type="checkbox" name="" id=""></td>
+      <td>
+        <b>
+          1. Name
+        </b>
+      </td>
+      
+    </tr>
+    <tr>
+      <td></td>
+      <td><b>Title </b>
+        <label for="yes" style="padding-left: 40px;">Smt/Mr</label>
+        <input type="radio" name="" id="yes">
+        <label for="no" style="padding-left: 20px;">Smt/mrs</label>
+        <input type="radio" name="" id="no">
+        <label for="Kumari" style="padding-left: 20px;">Kumari/Ms</label>
+        <input type="radio" name="" id="Kumari">
+    
+      </td>
+      
+    </tr>
+    <tr>
+      <td></td>
+      <td>
+        <div style="display: inline-block;">
+          <label for="Firstname"><b>Firstname</b></label><br>
+          <input type="text" name="" id="Firstname">
+        </div>
+
+        <div style="display: inline-block; padding-left: 100px;">
+          <label for="Middlename"><b>Middlename</b></label><br>
+          <input type="text" name="" id="Middlename">
+        </div>
+
+
+        <div style="display: inline-block; padding-left: 100px;">
+          <label for="Lastname"><b>Lastname</b></label><br>
+          <input type="text" name="" id="Lastname">
+        </div>
+      </td>
+      
+    </tr>
+    <tr>
+        <td></td>
+        <td><span class="main">*</span> <b>Name as you would like it print on the card</b>
+          <b style="color:rgb(106, 179, 106);">(Prifix like Shiri, Smt, Kumari, Late, Dr, CA, Ms, Mr, Mrs, M/s, Alias etc.are not allowed)</b>
+        </td>
+        
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <label for="label for="Name as you would like it print on the card"></label>
+        <input type="Name as you would like it print on the card" name="" id="Name as you would like it print on the card">
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td colspan="3"><b>Details of Parents.</b>
+          <b style="color:rgb(106, 179, 106);">(Prifix like Shiri, Smt, Kumari, Late, Dr, CA, Ms, Mr, Mrs, M/s, Alias etc.are not allowed)</b>
+        
+     </td>
+     </tr>
+    <tr>
+        <td></td>
+        <td>
+            <b>Whether mother is single parent and you wish to apply for PAN by furnishing the name of your mother only</b>
+            </td>
+            <td>
+                <div>
+                    <label for="yes" >Yes</label>
+                <input type="radio" name="" id="yes">
+                <label for="no" >No</label>
+                <input type="radio" name="" id="no">
+            </div>
+
+            </td>
+        </tr>
+        <tr>
+            <td style="width:2%; text-align: center;"> <input type="checkbox" name="" id=""></td>
+            <td>
+                <span class="main">*</span> <b>Father's Name</b>
+          <b style="color:rgb(106, 179, 106);">(Mandatory field.Even married woman should give father's name only)</b>
+            </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                  <div style="display: inline-block;">
+                    <label for="Firstname"><b>Firstname</b></label><br>
+                    <input type="text" name="" id="Firstname">
+                  </div>
+          
+                  <div style="display: inline-block; padding-left: 100px;">
+                    <label for="Middlename"><b>Middlename</b></label><br>
+                    <input type="text" name="" id="Middlename">
+                  </div>
+          
+          
+                  <div style="display: inline-block; padding-left: 100px;">
+                    <label for="Lastname"><b>Lastname</b></label><br>
+                    <input type="text" name="" id="Lastname">
+                  </div>
+                </td>
+                
+              </tr>
+              <tr>
+                <td style="width:2%; text-align: center;"> <input type="checkbox" name="" id=""></td>
+                <td>
+                    <span class="main">*</span> <b>Mother's Name</b>
+              <b style="color:rgb(106, 179, 106);">(This field is optionsl)</b>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                      <div style="display: inline-block;">
+                        <label for="Firstname"><b>Firstname</b></label><br>
+                        <input type="text" name="" id="Firstname">
+                      </div>
+              
+                      <div style="display: inline-block; padding-left: 100px;">
+                        <label for="Middlename"><b>Middlename</b></label><br>
+                        <input type="text" name="" id="Middlename">
+                      </div>
+              
+              
+                      <div style="display: inline-block; padding-left: 100px;">
+                        <label for="Lastname"><b>Lastname</b></label><br>
+                        <input type="text" name="" id="Lastname">
+                      </div>
+                    </td>
+                    
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>
+                        <span class="main">*</span> <b>Select Parent name which is to be printed on the card</b>
+                       <b style="color:rgb(106, 179, 106);">(In case no option is provided then PAN card will be issued with father's name)</b>
+                    </td>
+                    <td>
+                        <div>
+                            <label for="yes" >Father Name</label>
+                        <input type="radio" name="" id="yes">
+                        <label for="no" >Mother Name</label>
+                        <input type="radio" name="" id="no">
+                        </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width:2%; text-align: center;"> <input type="checkbox" name="" id=""></td>
+                    <td>
+                        <span class="main">*</span> <b>5. Date of Birth/Incorporation/Agreement/Partnership</b><br>
+                        <b>or Trust Deed/Formation of Body of Individuals/</b><br>
+                        <b>Association of Persons</b><br>
+                        </td>
+                        <td>
+                            <div style="display: inline-block;">
+                                <label for="dd"><b>DD</b></label><br>
+                                <input type="date" name="" id="dd">
+                              </div>
+                      
+                              <div style="display: inline-block">
+                                <label for="mm"><b>MM</b></label><br>
+                                <input type="month" name="" id="mm">
+                              </div>
+                      
+                      
+                              <div style="display: inline-block">
+                                <label for="yyyy"><b>YYYY</b></label><br>
+                                <input type="year" name="" id="yyyy">
+                        </td>
+                  
+                    </tr>
+                    <tr>
+                        <td style="width:2%; text-align: center;"> <input type="checkbox" name="" id=""></td>
+                        <td >
+                            <span class="main">*</span> <b>6. Gender</b>
+                        </td>
+                        <td colspan="3">
+                            <div>
+                                <label for="Male" >Male</label>
+                            <input type="radio" name="" id="Male">
+                            <label for="Female" >Female</label>
+                            <input type="radio" name="" id="Female">
+                            <label for="transgender" >Transgender</label>
+                            <input type="radio" name="" id="transgender">
+                             
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width:2%; text-align: center;"> <input type="checkbox" name="" id=""></td>
+                        <td>
+                            <span class="main">*</span> <b>7.Photo Mismatch</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width:2%; text-align: center;"> <input type="checkbox" name="" id=""></td>
+                        <td>
+                            <span class="main">*</span> <b>8. Signature Mismatch</b>
+                        </td>
+                    </tr>
+                
+    
+   
+
+  </table>
+</body>
+
+</html>
